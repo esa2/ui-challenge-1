@@ -1,0 +1,26 @@
+
+.wrapper {
+    display: flex; /* make the wrapper (div) a flexbox */
+    flex-wrap: wrap; /* alow content to wrap to next line */
+  }
+
+  .top {
+    height: 240px;
+    display: block;
+    margin: auto;
+    background-color: red;
+  }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 800px) {
+   
+}
