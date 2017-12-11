@@ -3,111 +3,119 @@ html {
   }
 
   body {
-    margin: 20px 250px 20px;
+    margin: 20px 100px 20px;
   }
 
   p {
     padding: 10px;
   }
 
+  .center {
+    text-align: center;
+}
+
   .wrapper {
     display: grid;
     grid-template-columns: 240px 240px;
+    grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
   }
 
   .boxa {
     background: #ccc;
-    height: 75px;
-    width: 480px;
     border: 1px solid gray;
+    grid-column-start: 1; 
+    grid-column-end: 3;
+    grid-row-start: 1 ;
+    grid-row-end: 2;
   }
 
   .boxb {
     background: #ccc;
-    height: 150px;
-    width: 480px;
     border-bottom: 1px solid gray;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
     grid-column-start: 1; 
     grid-column-end: 3;
-  } */
+    grid-row-start: 2 ;
+    grid-row-end: 3;
+  }
 
    .boxc {
     background: #ccc;
-    height: 125px;
-    width: 480px;
     border-bottom: 1px solid gray;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
     grid-column-start: 1; 
     grid-column-end: 3;
+    grid-row-start: 3 ;
+    grid-row-end: 4;
   }
 
   .boxd {
     background: #ccc;
-    height: 125px;
-    width: 480px;
-    margin: 0 auto;
     border-bottom: 1px solid gray;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
-    grid-column-start: 1; 
-    grid-column-end: 3; 
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4 ;
+    grid-row-end: 5;
   }
 
   .boxe {
     background: #ccc;
-    height: 250px;
-    width: 240px;
     border-bottom: 1px solid gray;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5 ;
+    grid-row-end: 6;
   }
 
   .boxf {
     background: #ccc;
-    height: 250px;
-    width: 240px;
     border-bottom: 1px solid gray;
     border-right: 1px solid gray;
     border-right: 1px solid gray;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5 ;
+    grid-row-end: 6;
   }
 
   .boxg {
     background: #ccc;
-    height: 250px;
-    width: 240px;
     border-bottom: 1px solid gray;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6 ;
+    grid-row-end: 7;
   }
 
   .boxh {
     background: #ccc;
-    height: 250px;
-    width: 240px;
     border-bottom: 1px solid gray;
     border-right: 1px solid gray;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6 ;
+    grid-row-end: 7;
   }
 
   .boxi {
     background: #ccc;
-    height: 75px;
-    width: 480px;
     border-bottom: 1px solid gray;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
     grid-column-start: 1; 
-    grid-column-end: 3; 
+    grid-column-end: 3;
+    grid-row-start: 7 ;
+    grid-row-end: 8;
   }
 
-  .center {
-      text-align: center;
-  }
-
-
-  
 @media screen and (min-width: 768px) {
 
   body {
@@ -118,7 +126,6 @@ html {
     display: grid;
     grid-template-columns: 200px 190px 190px 190px 190px;
     grid-template-rows: 100px 200px 250px 150px;
-    
   }
   
   .boxa {
