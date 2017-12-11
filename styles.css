@@ -1,4 +1,3 @@
-
 html {
     font-family: sans-serif;
   }
@@ -10,46 +9,68 @@ html {
   .boxa {
     background: #ccc;
     height: 75px;
+    width: 480px;
+    margin: 0 auto;
   }
 
   .boxb {
     background: #ccc;
     height: 150px;
+    width: 480px;
+    margin: 0 auto;
   }
 
   .boxc {
     background: #ccc;
     height: 125px;
+    width: 480px;
+    margin: 0 auto;
   }
 
   .boxd {
     background: #ccc;
     height: 125px;
+    width: 480px;
+    margin: 0 auto;
   }
 
   .boxe {
     background: #ccc;
     height: 250px;
+    width: 240px;
+    margin: 0 auto;
   }
 
   .boxf {
     background: #ccc;
     height: 250px;
+    width: 240px;
+    margin: 0 auto;
   }
 
   .boxg {
     background: #ccc;
     height: 250px;
+    width: 240px;
+    margin: 0 auto;
   }
 
   .boxh {
     background: #ccc;
     height: 250px;
+    width: 240px;
+    margin: 0 auto;
   }
 
   .boxi {
     background: #ccc;
     height: 75px;
+    width: 480px;
+    margin: 0 auto;
+  }
+
+  .center {
+      text-align: center;
   }
 
 
