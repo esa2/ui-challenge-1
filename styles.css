@@ -172,6 +172,7 @@ html {
     background: #ccc;
     border-bottom: 1px solid gray;
     border-left: 1px solid gray;
+    border-right: initial;
     grid-column-start: 1; 
     grid-column-end: 2;
     grid-row-start: 2;
@@ -182,6 +183,7 @@ html {
     background: #ccc;
     border-bottom: 1px solid gray;
     border-left: 1px solid gray;
+    border-right: initial;
     grid-column-start: 2; 
     grid-column-end: 4;
     grid-row-start: 2;
@@ -206,6 +208,8 @@ html {
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
+    border-right: initial;
+    border-bottom: initial;
   }
 
   .boxf {
@@ -234,8 +238,6 @@ html {
 
   .boxh {
     background: #ccc;
-    height: 250px;
-    width: 190px;
     border-bottom: 1px solid gray;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
@@ -243,6 +245,7 @@ html {
     grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 4;
+    border-bottom: initial;
   }
 
   .boxi {
