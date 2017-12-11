@@ -6,12 +6,8 @@ html {
     margin: 20px 100px 20px;
   }
 
-  p {
-    padding: 10px;
-  }
-
-  .center {
-    text-align: center;
+.dt {
+  display: none;
 }
 
   .wrapper {
@@ -27,6 +23,9 @@ html {
     grid-column-end: 3;
     grid-row-start: 1 ;
     grid-row-end: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center
   }
 
   .boxb {
@@ -38,6 +37,9 @@ html {
     grid-column-end: 3;
     grid-row-start: 2 ;
     grid-row-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center
   }
 
    .boxc {
@@ -49,6 +51,9 @@ html {
     grid-column-end: 3;
     grid-row-start: 3 ;
     grid-row-end: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center
   }
 
   .boxd {
@@ -60,6 +65,9 @@ html {
     grid-column-end: 3;
     grid-row-start: 4 ;
     grid-row-end: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center
   }
 
   .boxe {
@@ -71,6 +79,9 @@ html {
     grid-column-end: 2;
     grid-row-start: 5 ;
     grid-row-end: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center
   }
 
   .boxf {
@@ -82,6 +93,9 @@ html {
     grid-column-end: 3;
     grid-row-start: 5 ;
     grid-row-end: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center
   }
 
   .boxg {
@@ -93,6 +107,9 @@ html {
     grid-column-end: 2;
     grid-row-start: 6 ;
     grid-row-end: 7;
+    display: flex;
+    align-items: center;
+    justify-content: center
   }
 
   .boxh {
@@ -103,6 +120,9 @@ html {
     grid-column-end: 3;
     grid-row-start: 6 ;
     grid-row-end: 7;
+    display: flex;
+    align-items: center;
+    justify-content: center
   }
 
   .boxi {
@@ -114,12 +134,23 @@ html {
     grid-column-end: 3;
     grid-row-start: 7 ;
     grid-row-end: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center
   }
 
 @media screen and (min-width: 768px) {
 
   body {
     margin: 20px;
+  }
+
+  .dt {
+    display: initial;
+  }
+
+  .mo {
+    display: none;
   }
  
   .wrapper {
