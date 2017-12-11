@@ -3,28 +3,45 @@ html {
   }
 
   body {
-    margin: 0;
+    margin: 20px 250px 20px;
+  }
+
+  p {
+    padding: 10px;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 240px 240px;
   }
 
   .boxa {
     background: #ccc;
     height: 75px;
     width: 480px;
-    margin: 0 auto;
+    border: 1px solid gray;
   }
 
   .boxb {
     background: #ccc;
     height: 150px;
     width: 480px;
-    margin: 0 auto;
-  }
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 1; 
+    grid-column-end: 3;
+  } */
 
-  .boxc {
+   .boxc {
     background: #ccc;
     height: 125px;
     width: 480px;
-    margin: 0 auto;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 1; 
+    grid-column-end: 3;
   }
 
   .boxd {
@@ -32,41 +49,57 @@ html {
     height: 125px;
     width: 480px;
     margin: 0 auto;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 1; 
+    grid-column-end: 3; 
   }
 
   .boxe {
     background: #ccc;
     height: 250px;
     width: 240px;
-    margin: 0 auto;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
   }
 
   .boxf {
     background: #ccc;
     height: 250px;
     width: 240px;
-    margin: 0 auto;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-right: 1px solid gray;
   }
 
   .boxg {
     background: #ccc;
     height: 250px;
     width: 240px;
-    margin: 0 auto;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
   }
 
   .boxh {
     background: #ccc;
     height: 250px;
     width: 240px;
-    margin: 0 auto;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
   }
 
   .boxi {
     background: #ccc;
     height: 75px;
     width: 480px;
-    margin: 0 auto;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 1; 
+    grid-column-end: 3; 
   }
 
   .center {
@@ -76,5 +109,113 @@ html {
 
   
 @media screen and (min-width: 768px) {
-   
+
+  body {
+    margin: 20px;
+  }
+ 
+  .wrapper {
+    display: grid;
+    grid-template-columns: 200px 190px 190px 190px 190px;
+    grid-template-rows: 100px 200px 250px 150px;
+    
+  }
+  
+  .boxa {
+    background: #ccc;
+    border: 1px solid gray;
+    grid-column-start: 1; 
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  
+  .boxb {
+    background: #ccc;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    grid-column-start: 1; 
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+  }
+
+  .boxc {
+    background: #ccc;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    grid-column-start: 2; 
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .boxd {
+    background: #ccc;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 4; 
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+   .boxe {
+    background: #ccc;
+    border-left: 1px solid gray;
+    grid-column-start: 2; 
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .boxf {
+    background: #ccc;
+    height: 250px;
+    width: 190px;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    grid-column-start: 3; 
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .boxg {
+    background: #ccc;
+    height: 250px;
+    width: 190px;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    grid-column-start: 4; 
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .boxh {
+    background: #ccc;
+    height: 250px;
+    width: 190px;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 5; 
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .boxi {
+    background: #ccc;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 2; 
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  } 
 }
