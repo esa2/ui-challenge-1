@@ -7,34 +7,53 @@ html {
     margin: 0;
   }
 
-  header {
-    background: red;
-    height: 100px;
+  .boxa {
+    background: #ccc;
+    height: 75px;
   }
 
-  h1 {
-    text-align: center;
-    color: white;
-    line-height: 100px;
-    margin: 0;
+  .boxb {
+    background: #ccc;
+    height: 150px;
   }
 
-  article {
-    padding: 10px;
-    margin: 10px;
-    background: green;
+  .boxc {
+    background: #ccc;
+    height: 125px;
   }
 
-  footer {
-    background: red;
-    height: 100px;
+  .boxd {
+    background: #ccc;
+    height: 125px;
   }
+
+  .boxe {
+    background: #ccc;
+    height: 250px;
+  }
+
+  .boxf {
+    background: #ccc;
+    height: 250px;
+  }
+
+  .boxg {
+    background: #ccc;
+    height: 250px;
+  }
+
+  .boxh {
+    background: #ccc;
+    height: 250px;
+  }
+
+  .boxi {
+    background: #ccc;
+    height: 75px;
+  }
+
+
   
-
-
-
-
-
 @media screen and (min-width: 768px) {
    
 }
