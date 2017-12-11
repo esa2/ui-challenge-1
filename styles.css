@@ -1,26 +1,40 @@
 
-.wrapper {
-    display: flex; /* make the wrapper (div) a flexbox */
-    flex-wrap: wrap; /* alow content to wrap to next line */
+html {
+    font-family: sans-serif;
   }
 
-  .top {
-    height: 240px;
-    display: block;
-    margin: auto;
-    background-color: red;
+  body {
+    margin: 0;
   }
 
+  header {
+    background: red;
+    height: 100px;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+  }
+
+  article {
+    padding: 10px;
+    margin: 10px;
+    background: green;
+  }
+
+  footer {
+    background: red;
+    height: 100px;
+  }
+  
 
 
 
 
 
-
-
-
-
-
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
    
 }
