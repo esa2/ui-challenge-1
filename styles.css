@@ -1,0 +1,277 @@
+html {
+    font-family: sans-serif;
+  }
+
+  body {
+    margin: 20px 100px 20px;
+  }
+
+  span {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+
+.dt {
+  display: none;
+}
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 240px 240px;
+    grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
+  }
+
+  .boxa {
+    position: relative;
+    background: #ccc;
+    border: 1px solid gray;
+    grid-column-start: 1; 
+    grid-column-end: 3;
+    grid-row-start: 1 ;
+    grid-row-end: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+  .boxb {
+    position: relative;
+    background: #ccc;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 1; 
+    grid-column-end: 3;
+    grid-row-start: 2 ;
+    grid-row-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+   .boxc {
+    position: relative;
+    background: #ccc;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 1; 
+    grid-column-end: 3;
+    grid-row-start: 3 ;
+    grid-row-end: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+  .boxd {
+    position: relative;
+    background: #ccc;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4 ;
+    grid-row-end: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+  .boxe {
+    position: relative;
+    background: #ccc;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5 ;
+    grid-row-end: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+  .boxf {
+    position: relative;
+    background: #ccc;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5 ;
+    grid-row-end: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+  .boxg {
+    position: relative;
+    background: #ccc;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6 ;
+    grid-row-end: 7;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+  .boxh {
+    position: relative;
+    background: #ccc;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6 ;
+    grid-row-end: 7;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+  .boxi {
+    position: relative;
+    background: #ccc;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 1; 
+    grid-column-end: 3;
+    grid-row-start: 7 ;
+    grid-row-end: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+@media screen and (min-width: 768px) {
+
+  body {
+    margin: 20px;
+  }
+
+  .dt {
+    display: initial;
+  }
+
+  .mo {
+    display: none;
+  }
+ 
+  .wrapper {
+    display: grid;
+    grid-template-columns: 200px 190px 190px 190px 190px;
+    grid-template-rows: 100px 200px 250px 150px;
+  }
+  
+  .boxa {
+    background: #ccc;
+    border: 1px solid gray;
+    grid-column-start: 1; 
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  
+  .boxb {
+    background: #ccc;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: initial;
+    grid-column-start: 1; 
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+  }
+
+  .boxc {
+    background: #ccc;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: initial;
+    grid-column-start: 2; 
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .boxd {
+    background: #ccc;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 4; 
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+   .boxe {
+    background: #ccc;
+    border-left: 1px solid gray;
+    grid-column-start: 2; 
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-right: initial;
+    border-bottom: initial;
+  }
+
+  .boxf {
+    background: #ccc;
+    height: 250px;
+    width: 190px;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    grid-column-start: 3; 
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .boxg {
+    background: #ccc;
+    height: 250px;
+    width: 190px;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    grid-column-start: 4; 
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .boxh {
+    background: #ccc;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 5; 
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-bottom: initial;
+  }
+
+  .boxi {
+    background: #ccc;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    grid-column-start: 2; 
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  } 
+}
